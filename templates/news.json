@@ -1,0 +1,22 @@
+{
+    "persons": [
+        {
+            "name": "Ваня",
+            "surname": "Иванов",
+            "image": "Artceram.jpg",
+            "job":"космонавт"
+        },
+        {
+            "name": "Петя",
+            "surname": "Хирьянов",
+            "image": "AXOR.jpg",
+            "job":"пилот"
+        },
+        {
+            "name": "Артем",
+            "surname": "Драганов",
+            "image": "AZZURRA.jpg",
+            "job": "уборщик"
+        }
+    ]
+}
