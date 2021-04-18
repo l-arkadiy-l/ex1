@@ -3,19 +3,19 @@
         {
             "name": "Ваня",
             "surname": "Иванов",
-            "image": "Artceram.jpg",
+            "image": "../static/images/Artceram.jpg",
             "job":"космонавт"
         },
         {
             "name": "Петя",
             "surname": "Хирьянов",
-            "image": "AXOR.jpg",
+            "image": "../static/images/AXOR.jpg",
             "job":"пилот"
         },
         {
             "name": "Артем",
             "surname": "Драганов",
-            "image": "AZZURRA.jpg",
+            "image": "../static/images/AZZURRA.jpg",
             "job": "уборщик"
         }
     ]

@@ -24,11 +24,12 @@
     flex-flow: column;
     width: 510px;
     align-items: center;">
-        {% for i in list_person %}
-        {% if loop.first %}
-        <img src="{{image}}" alt="">
-        {% endif %}
-        <h4>{{i}}</h4>
-        {% endfor %}
-    </div>
+    {% set data = data|random %}
+    <div align="center">
+        {{data["name"]}} {{data["surname"]}}<br>
+        <img src={{data["image"]}} width="400px" height="500px"><br>
+        {{data["job"]}}
+    </div><br>
     {% endblock %}
+    </div>
+</header>
